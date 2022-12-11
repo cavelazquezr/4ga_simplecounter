@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* 
 
     You can write your own styles here...
@@ -10,3 +10,30 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body{
+    background-color: #3A74B9;
+    font-family: 'Roboto', sans-serif;
+}
+
+.counter-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.counter-number {
+    color: white;
+    font-size: 42px;
+    background-color: #4e89d1;
+    width: 48px;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.clock{
+    font-size: 36px !important;
+}
